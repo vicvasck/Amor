@@ -177,9 +177,7 @@
         <button class="botao botao-musica" onclick="mostrarMensagem('Escolha uma música')">Clique aqui e sinta o que eu sinto por você!🤍</button>
     </div>
 
-    <div id="mensagem" class="mensagem"></div>
     
-    <div id="arroz" class="mensagem"></div></div>
 
     <script>
         var dataInicio = new Date("2023-10-22T00:02:10");
@@ -201,17 +199,6 @@
 
         setInterval(atualizarContador, 1000);
 
-        function mostrarMensagem(mensagemTexto) {
-            var mensagem = document.getElementById('mensagem');
-            mensagem.innerHTML = mensagemTexto;
-            mensagem.style.display = 'block';
-            setTimeout(function() {
-                mensagem.style.display = 'none';
-            }, 3000); // A mensagem desaparecerá após 3 segundos
-            
-            
-            
-        }
-    </script>
+        
 </body>
 </html>
